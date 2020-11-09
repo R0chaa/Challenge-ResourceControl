@@ -13,10 +13,6 @@ mongoose.connect('mongodb://localhost/desafio', {
     console.log("Houve um erro: " + error);
 })
 
-//Model- Usuarios
-//definindo model
-//const UsuarioSchema = mongoose.schema({
-
 const UsuarioSchema = new Schema({
         
     nome: {
