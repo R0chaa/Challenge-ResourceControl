@@ -8,7 +8,7 @@
 
  - Node.Js ~ v12.19.0;
  - Express ~ v.4.17.1;
- - MongoDB ~v.4.4;
+ - MongoDB ~ v.4.4;
  - Mongoose ~ v.5.10.13;
  - Body-parser ~v.1.19.0;
  - Ejs ~ v.5.10.13
