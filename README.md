@@ -6,12 +6,12 @@
 
  ## Recursos utilizados no desenvolvimento:
 
- - Node.Js;
- - express ~ v.4.17.1;
- - MongoDb;
- - mongoose ~ v.5.10.13;
- - body-parser ~v.1.19.0;
- - ejs ~ v.5.10.13
+ - Node.Js ~ v12.19.0;
+ - Express ~ v.4.17.1;
+ - MongoDB ~v.4.4;
+ - Mongoose ~ v.5.10.13;
+ - Body-parser ~v.1.19.0;
+ - Ejs ~ v.5.10.13
 
  ## Executando o projeto
 
