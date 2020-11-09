@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./css/listagem.css">
+    <title>Elvenworks</title>
+</head>
+
+<body>
+    <header>
+        <div> 
+            <h1><a href="/"  class="listagem">ElvenWorks</a></h1> 
+            <nav>
+                <ul>
+                    <a href="/cadastro"><li  id="caixa">Cadastrar</li></a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <form> 
+            <div>
+                <br>
+                <nav>
+                    <ul id="users">
+                        <p id="info">Nome  |  Tipo  |  Data de Criação</p><br><hr><br>
+                        <% doc.forEach(doc => { %>
+                            <li name="nome" id="users"><%= doc.nome%></li> 
+                            <li id="users">  |  <%= doc.tipo%></li>
+                            <li id="users">  |  <%= doc.data%></li>
+                            <br><br>
+                            <a class="editar" href="/edit/<%= doc._id%>">Editar</a>
+                            <a onclick="return confirmar()" href="/delete/<%= doc._id%>" class="deletar">X</a> 
+                            <br><br><hr><br>
+                            <% }) %>                                    
+                    </ul>
+                </nav>    
+            </div> 
+        </form>  
+    </main>
+
+    <script>
+        function confirmar() {    
+            return confirm("Ecluir este item?")
+        }
+    </script>
+        
+
+    <footer>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/lucas-rocha-2a37b3171/"><img img src="../img/linkedin.png" width="70" alt="icone linkedin" class="linkedin"></a></li>
+          <li><a href="https://github.com/R0chaa"><img img src="../img/git.png" width="70" alt="icone git" class="git"></a></li>
+        </ul>
+        <br>
+        <p class="copyright">&copy; Copyright Lucas Rocha - 2020</p>
+    </footer>
+</body>
+</html>

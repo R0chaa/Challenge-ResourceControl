@@ -1,0 +1,119 @@
+body {
+    background: #F3F3F3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: #663399;
+    color: white;
+    padding: 20px;
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 40px;
+    width: auto;
+}
+
+.listagem {
+    text-decoration: none;
+    color: white;
+}
+
+.pag_cad {
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.home {
+    width: 10%;
+    padding: 10px 0;
+    background: #282A2D;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 45px;
+    border-radius: 25px 10px 25px 10px;
+    border-color: black;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.home:hover {
+    background-image: linear-gradient(#9B30F9, #84e);
+    transform: scale(1.05);
+}
+
+h2 {
+   padding: 20px;
+   border-width: 30%;
+   background-image: linear-gradient(#9B30F9, #84e);
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px;
+    height: 10px;
+}
+  
+form {
+    margin: 20px 0;
+    position: relative;
+}
+  
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 20px 20px;
+    width: 50%;
+}
+
+.enviar {
+    width: 20%;
+    padding: 15px 0;
+    background-image: linear-gradient(#9B30F9, #84e);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+  
+.enviar:hover {
+    transform: scale(1.05);
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+    margin: auto;
+    position: static;
+    padding: 10px;
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #0E1013;
+    text-align: center;
+}
+
+footer li{
+    display: inline;
+    padding: 40px;
+}

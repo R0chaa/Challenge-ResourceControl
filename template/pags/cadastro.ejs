@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="./css/reset.css">
+      <link rel="stylesheet" type="text/css" href="./css/cadastro.css">
+      <title>Cadastro Elvenworks</title>
+    </head>
+
+    <body>
+      <header>
+        <div> 
+          <h1><a href="/"  class="listagem">ElvenWorks</a></h1>  
+        </div>
+      </header>
+        
+    <h2 class="pag_cad">Página de Cadastro</h2> 
+
+      <form action="/">
+        <button class="home">Cancelar</button>   
+      </form>  
+
+      <main>
+        <form action="/add" method="POST">
+          <label for="nome">Digite o nome:</label>
+            <input type="text" name="name" id="nome" class="input-padrao" required><br>
+              <fieldset class="type">
+              <legend>Tipo:</legend>
+              <select name="tip">
+                <option>API</option>
+                <option>DB</option>
+                <option>Fila</option>
+                <option>Host Estático</option>
+              </select>
+          </fieldset><br><br>      
+        <label for="data">Data de criação:</label>
+        <input type="date" name="date" id="data" class="input-padrao" required placeholder="dd/mm/aaaa"><br>
+        
+        <input type="submit" value="Enviar" class="enviar">
+        </form>
+      </main>
+
+    <footer>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/lucas-rocha-2a37b3171/"><img img src="./img/linkedin.png" width="70" alt="icone linkedin" class="linkedin"></a></li>
+        <li><a href="https://github.com/R0chaa"><img img src="./img/git.png" width="70" alt="icone git" class="git"></a></li>
+      </ul>
+      <br>
+      <p class="copyright">&copy; Copyright Lucas Rocha - 2020</p>
+    </footer>  
+
+    </body>
+</html>
